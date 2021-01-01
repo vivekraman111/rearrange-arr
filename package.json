@@ -1,0 +1,38 @@
+{
+  "name": "rearrange-arr",
+  "version": "0.1.0",
+  "description": "Rearranges an array in chunks. Enables merging of chunks if required.",
+  "main": "build/index.js",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env"
+      ]
+    ]
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "jest build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekraman111/rearrange-arr.git"
+  },
+  "keywords": [
+    "rearrange",
+    "array",
+    "javascript"
+  ],
+  "author": "Vivek Raman <vivekraman111@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivekraman111/rearrange-arr/issues"
+  },
+  "homepage": "https://github.com/vivekraman111/rearrange-arr#readme",
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "jest": "26.6.3"
+  }
+}
